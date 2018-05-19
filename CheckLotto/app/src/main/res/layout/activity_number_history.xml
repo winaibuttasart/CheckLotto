@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_slide41"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".NumberHistory">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt_slide41"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/read"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:height="40dp"
+        android:background="@drawable/edit_round"
+        android:hint="ระบุเลขที่ต้องการ"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/title2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/read"
+        android:background="@drawable/edit_round"
+        android:text="ตรวจสอบ" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/read"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_round">
+
+        <TextView
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:text="ประวัติรางวัล"
+            android:textColor="@color/red"
+            android:textSize="18dp" />
+
+    </ScrollView>
+
+
+</RelativeLayout>

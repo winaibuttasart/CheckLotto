@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_slide31"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".History">
+
+
+    <TextView
+        android:id="@+id/pagetitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt_slide31" />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/pagetitle1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="5dp"
+        android:background="#0095a8" />
+
+    <TextView
+        android:id="@+id/textyear"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="ปี : "
+        android:textSize="18dp" />
+
+
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textyear"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/textmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/year"
+        android:text="เดือน : "
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textmonth"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textday"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/month"
+        android:text="วันที่ : "
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/line1"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/textday"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/prizetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textyear"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="รางวัลประจำงวดวันที่ : " />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textyear"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/prizetv"
+        android:text="วันที่" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/prizetv"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prizeanswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ผลการออกรางวัลย้อนหลัง"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff77a9"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".CheckLottery">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="ผลการออกรางวัลงวดวันที่ "
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:text="Wait Date..."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/writecheck"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/date"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:hint="123456"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="#0000ff"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/clickcheck"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/date"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/writecheck"
+        android:background="@drawable/search" />
+
+
+    <TextView
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/writecheck"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:text="ผลการตรวจรางวัล :"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/re"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"
+        android:padding="15dp"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

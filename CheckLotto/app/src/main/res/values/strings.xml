@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CheckLotto</string>
+    <string name="txt_slide1">ท่านสามารถตรวจหวยในมือของท่าน เพียงกรอกเลขจำนวน 6 หลัก เช่น 123456 โปรแกรมจะตรวจทุกรางวัลให้ท่านได้ในทันที</string>
+    <string name="txt_slide2">ติดตามเลขเด็ด เลขดังได้ 24 ชั่วโมง !!!</string>
+    <string name="title_slide1">ตรวจหวย</string>
+    <string name="title_slide2">ลอตเตอรี่มาแรง</string>
+    <string name="txt_slide3">ตรวจสอบรางวัลย้อนหลังสูงสุด 7 ปี !!!</string>
+    <string name="title_slide3">ตรวจสอบย้อนหลัง</string>
+    <string name="title_slide4">สถิติ</string>
+    <string name="txt_slide4">เช็คว่าเลขที่คุณมี เคยออกมาแล้วกี่ครั้ง</string>
+    <string name="nai">นายวินัย บุตรศาสตร์</string>
+    <string name="four">นายนรากร วิเชียรไชย</string>
+    <string name="benz">นางสาวปิยพร อาภรศรี์</string>
+    <string name="nueng">นายอดิเทพ วิไลลาน</string>
+    <string name="naiE">:: winai buttasart</string>
+    <string name="fourE">:: narakorn vichianchai</string>
+    <string name="benzE">:: Piyaphorn Arphornsri</string>
+    <string name="nuengE">:: adithep Wilailan</string>
+    <string name="title_slide21">หวยเด่นหวยดังงวดนี้</string>
+    <string name="txt_slide31">ระบุวันที่ แล้วตรวจเช็คประวัติย้อนหลังลอตเตอรี่</string>
+    <string name="txt_slide41">สอบถามประวัติเลขที่เคยออกย้อนหลัง 7 ปี</string>
+</resources>

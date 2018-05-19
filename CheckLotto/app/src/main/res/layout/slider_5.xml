@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_slide5"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TableRow android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src="@drawable/group_05" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/photo01" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/photo02" />
+        </TableRow>
+
+        <TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nai" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/four" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow>
+
+            <TableRow>
+
+                <RelativeLayout android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/git01"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/gitlab_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/git01"
+                        android:text="@string/naiE" />
+
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <RelativeLayout android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/git02"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/gitlab_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/git02"
+                        android:text="@string/fourE" />
+
+                </RelativeLayout>
+            </TableRow>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/photo03" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/photo04" />
+        </TableRow>
+
+        <TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/benz" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nueng" />
+            </TableRow>
+        </TableRow>
+
+        <TableRow>
+
+            <TableRow>
+
+                <RelativeLayout android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/git04"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/gitlab_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/git04"
+                        android:text="@string/benzE" />
+
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <RelativeLayout android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/git05"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/gitlab_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/git05"
+                        android:text="@string/nuengE" />
+
+                </RelativeLayout>
+            </TableRow>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
